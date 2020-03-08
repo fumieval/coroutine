@@ -1,0 +1,4 @@
+packages: .
+with-compiler: /home/fumieval/hs/ghc/_build/stage1/bin/ghc
+allow-newer:
+  hsc2hs:base
