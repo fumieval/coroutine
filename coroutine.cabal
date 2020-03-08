@@ -20,5 +20,13 @@ library
   -- other-modules:
   -- other-extensions:
   build-depends:       base ^>=4.14.0.0, transformers, ghc-prim
+  ghc-options: -Wall
   -- hs-source-dirs:
   default-language:    Haskell2010
+
+benchmark bench
+  main-is: bench.hs
+  build-depends:       base ^>=4.14.0.0, transformers, ghc-prim, gauge
+  -- hs-source-dirs:
+  default-language:    Haskell2010
+  type: exitcode-stdio-1.0
